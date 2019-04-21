@@ -1,0 +1,14 @@
+<?php
+
+$appID = 'appid';
+$ak = 'ak';
+$sk = 'sk';
+
+$publicKey = <<<EOF
+-----BEGIN PUBLIC KEY-----
+|||||||||--------------------|||||||||||
+!!!!!!!!! PUT YOUR KEYS HERE !!!!!!!!!!!
+|||||||||--------------------|||||||||||
+-----END PUBLIC KEY-----
+EOF;
+
