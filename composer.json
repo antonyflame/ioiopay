@@ -1,0 +1,25 @@
+{
+    "name": "antonyflame/ioiopay",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Antony Flame",
+            "email": "antonyf@tutanota.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Antonyflame\\Ioiopay\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [ "Antonyflame\\Ioiopay\\Laravel\\IoiopayServiceProvider" ]
+        }
+    }
+}
